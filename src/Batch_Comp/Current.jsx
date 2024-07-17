@@ -21,7 +21,7 @@ const  {card}=useContext(SearchContext);
                 {card.map((ele, index) => {
                     return (
                         <div key={`user1-${index}`} className=' bg-blue-900 rounded-3xl shadow-xl '>
-                            <div className='w-[23rem] mt-2 p-3 bg-white rounded-3xl shadow-xl '>
+                            <div className='w-[20rem] mt-2 p-3 bg-white rounded-3xl shadow-xl '>
                                 <div className="cont  px-4 py-2 text-blue-800 font-bold">{ele.batch} <span className=' float-right'><i className="fa-solid fa-person"></i> {ele.student}</span></div>
                                 <div className="cont  px-4 py-2 text-black font-bold"><i className="fa-solid fa-graduation-cap"></i> {ele.course}</div>
                                 <div className="cont  px-4 py-2 text-black font-bold"><i className="fa-solid fa-user"></i> {ele.teacher}</div>

@@ -30,7 +30,7 @@ function App() {
       <>
         <Header />
         <div className='w-screen flex gap-5 bg-blue-50	min-h-[92vh] '>
-          <div className='w-1/6 '>{<Lsider />}</div>
+          <div className='w-[10rem] '>{<Lsider />}</div>
           <div className=' w-5/6 bg-white mt-2  p-3 px-4 shadow-lg'>
             <Routes>
               <Route path='/' element={<Module />}></Route>

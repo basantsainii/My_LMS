@@ -3,7 +3,7 @@ import React from 'react'
 function Prompt() {
     return (
         <>
-            <div className='absolute w-1/5 px-4 py-6 bg-white right-3 top-12 z-20 border border-gray-200 shadow-lg rounded-lg' onClick={(e)=>e.stopPropagation()}>  
+            <div className='absolute w-[16rem] px-4 py-6 bg-white right-3 top-12 z-20 border border-gray-200 shadow-lg rounded-lg' onClick={(e)=>e.stopPropagation()}>  
                 <div className='flex justify-center align-middle'><div className='absolute -mt-7 w-14 h-14 text-3xl z-30 border border-black rounded-full p-2 text-white bg-blue-950 text-center'>B</div></div>
                 <div className='border border-gray-300 rounded-lg'>
                     <ul className=' list-none text-center px-2 py-11'>

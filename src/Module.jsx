@@ -51,7 +51,7 @@ function Module() {
     }
     return (
         <>
-            <div className=' mt-5 w-[25rem] border border-gray-300 px-2 py-1 bg-white rounded-2xl'><i className="fa-solid fa-magnifying-glass"></i> <input onChange={getValue} ref={Value} type="search" name="" id="" placeholder='Search Module Here' className=' w-[22rem] border-none outline-none' /></div>
+            <div className=' mt-5 w-[20rem] border border-gray-300 px-2 py-1 bg-white rounded-2xl'><i className="fa-solid fa-magnifying-glass"></i> <input onChange={getValue} ref={Value} type="search" name="" id="" placeholder='Search Module Here' className=' w-11/12 border-none outline-none' /></div>
             <br />
             <div className='flex justify-start align-middle gap-3 flex-wrap'>
                 {
