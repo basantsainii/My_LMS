@@ -44,9 +44,7 @@ console.log(isOpen)
               </Route>
 
               <Route path='/Test_Module' index:true element={<T_Module />}>
-                <Route path='/Test_Module/' element={<All_Test />}>
-                  <Route path='Hide_content' element={<Hide_content />}></Route>
-                </Route>
+                <Route path='/Test_Module/' element={<All_Test />}></Route>
                 <Route path='Create_test' element={<Create_test />}></Route>
                 <Route path='Test_Results' element={<Test_Results />}></Route>
               </Route>
