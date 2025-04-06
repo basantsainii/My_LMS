@@ -1,4 +1,4 @@
-import { useState } from 'react'
+import { useContext, useState } from 'react'
 import reactLogo from './assets/react.svg'
 import viteLogo from '/vite.svg'
 import './All_css/App.css'
@@ -18,20 +18,22 @@ import All_Test from './Test_Module/All_Test'
 import Create_test from './Test_Module/Create_test'
 import Test_Results from './Test_Module/Test_Results'
 import Hide_content from './Test_Module/Hide_content'
+import { HumBurgerContext } from './Context_API/responsiveContext'
 
 
 
 
 function App() {
   // const [count, setCount] = useState(0)
-
+  const {isOpen, setIsOpen} = useContext(HumBurgerContext);
+console.log(isOpen)
   return (
     <BrowserRouter>
       <>
         <Header />
-        <div className='w-screen flex gap-5 bg-blue-50	min-h-[92vh] '>
-          <div className='w-[10rem] '>{<Lsider />}</div>
-          <div className=' w-5/6 bg-white mt-2  p-3 px-4 shadow-lg'>
+        <div onClick={()=>setIsOpen(false)} className='w-screen flex gap-5 bg-blue-50	min-h-[92vh] relative'>
+          <div className={`w-[10rem]  absolute md:left-0 md:relative ${isOpen ? "left-0 shadow-2xl h-full" : "right-full"}`}>{<Lsider />}</div>
+          <div className='bg-white mt-2  p-3 px-4 shadow-lg'>
             <Routes>
               <Route path='/' element={<Module />}></Route>
 
