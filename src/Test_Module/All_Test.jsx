@@ -30,7 +30,7 @@ function All_Test() {
 
     return (
         <>
-            <div className='mt-3 w-[22rem] h-[25rem] text-center border border-gray-400 rounded-2xl'>
+            <div className='mt-3 w-[90%] m-auto md:w-3/5 lg:w-1/2 h-[25rem] text-center border border-gray-400 rounded-2xl'>
                 <h1 className='py-3 font-bold f-w'>Frontend Development</h1>
                 {
                     Data.map((ele, i) => {
