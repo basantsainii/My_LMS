@@ -33,7 +33,7 @@ console.log(isOpen)
         <Header />
         <div onClick={()=>setIsOpen(false)} className='w-screen flex gap-5 bg-blue-50	min-h-[92vh] relative'>
           <div className={`w-[10rem]  absolute md:left-0 md:relative ${isOpen ? "left-0 shadow-2xl h-full" : "right-full"}`}>{<Lsider />}</div>
-          <div className='bg-white mt-2  p-3 px-4 shadow-lg'>
+          <div className=' w-full bg-white mt-2  p-3 px-4 shadow-lg'>
             <Routes>
               <Route path='/' element={<Module />}></Route>
 
