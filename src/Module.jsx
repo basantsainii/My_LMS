@@ -57,24 +57,24 @@ function Module() {
                 {
                     D_Array.map((ele, index) => {
                         return (
-                            <div key={`module-${index}`} className=' bg-blue-900 rounded-md shadow-xl'>
-                                <div className='mb-1 w-[22rem] bg-white border border-gray-200 rounded-md p-4 shadow-lg'>
+                            <div key={`module-${index}`} className=' bg-blue-900 rounded-md shadow-xl w-84 text-sm md:text-base'>
+                                <div className='mb-1 w-full bg-white border border-gray-200 rounded-md p-4 shadow-lg'>
                                     <div className='text-blue-800 font-bold'>{ele.Course} <span className=' float-right'><i className="fa-solid fa-pencil"></i></span></div>
-                                    <div className='flex justify-between align-centre mt-3'>
-                                        <div className=' bg-blue-900 rounded-md'>
-                                            <ul className='mb-1 bg-white border border-gray-400 rounded-md px-3 py-1 text-center'>
+                                    <div className='flex justify-between align-centre mt-3 gap-1'>
+                                        <div className=' bg-blue-900 rounded-md '>
+                                            <ul className='mb-1 bg-white border border-gray-400 rounded-md px-3 py-1 text-center h-[94%]'>
                                                 <li>Duration</li>
                                                 <li className='font-bold'>{ele.Duration}</li>
                                             </ul>
                                         </div>
                                         <div className=' bg-blue-900 rounded-md'>
-                                            <ul className='mb-1 bg-white border border-gray-400 rounded-md px-3 py-1 text-center'>
+                                            <ul className='mb-1 bg-white border border-gray-400 rounded-md px-3 py-1 text-center h-[94%]'>
                                                 <li>Total topics</li>
                                                 <li className='font-bold'>{ele.Topics}</li>
                                             </ul>
                                         </div>
                                         <div className=' bg-blue-900 rounded-md'>
-                                            <ul className='mb-1 bg-white border border-gray-400 rounded-md px-3 py-1 text-center'>
+                                            <ul className='mb-1 bg-white border border-gray-400 rounded-md px-3 py-1 text-center h-[94%]'>
                                                 <li>Fees</li>
                                                 <li className='font-bold'>{ele.Fees}</li>
                                             </ul>

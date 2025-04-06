@@ -9,7 +9,7 @@ function Hide_content({h_data}) {
                 <i className="fa-solid fa-id-card cursor-pointer"></i>
                 <i className="fa-regular fa-eye cursor-pointer"></i>
                 <i className="fa-solid fa-trash cursor-pointer"></i>
-                <div className='cursor-pointer'><select className='w-[10rem] border cursor-pointer'>
+                <div className='cursor-pointer'><select className='w-[8rem] border cursor-pointer'>
                     <option value="">select action</option>
                 </select>
                 </div>

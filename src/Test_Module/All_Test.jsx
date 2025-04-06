@@ -39,7 +39,7 @@ function All_Test() {
                                 <div onClick={()=>spread(i)} className='border-b cursor-pointer'><span className='px-4 text-blue-500 marker:'>{ele.topic} <i className="fa-solid fa-angle-down float-right px-3"></i></span></div>
                                 {/* using conditional to show hide_content, if ele.x == true is valid then Hide_content is */}
                                 { res[i] == true  && <Hide_content h_data={ele.Det} />}
-                                <Outlet />
+                                {/* <Outlet /> */}
                             </div>
                         )
                     })
