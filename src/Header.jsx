@@ -2,7 +2,7 @@ import React, { useContext, useState } from 'react';
 import './All_css/index.css';
 import logo from './assets/logo.jpg';
 import Modal from './Modal_portal_prompt/Modal';
-import { HumBurgerContext } from './Context_API/responsiveContext';
+import { HumBurgerContext } from './Context_API/ResponsiveContext';
 
 function Header() {
   const [toggle, setToggle] = useState(false);

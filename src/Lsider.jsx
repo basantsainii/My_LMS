@@ -1,6 +1,6 @@
 import React, { useContext, useRef, useState } from 'react'
 import { Link, NavLink } from 'react-router-dom'
-import { HumBurgerContext } from './Context_API/responsiveContext'
+import { HumBurgerContext } from './Context_API/ResponsiveContext.jsx'
 
 function Lsider() {
   const {isOpen, setIsOpen} = useContext(HumBurgerContext);
