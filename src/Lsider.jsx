@@ -8,7 +8,7 @@ function Lsider() {
 
   return (
     <>
-      <div className={`h-full relative left-2 top-2  p-2 bg-white shadow-sm flex flex-col justify-start align-middle `}>
+      <div className={`h-full w-40 relative left-2 top-2  p-2 bg-white shadow-sm flex flex-col justify-start align-middle `}>
         <NavLink to="/" className={({ isActive, isPending }) => isPending ? " " : isActive ? `${Active}` : `${Pending}`}>
           <div>
             Module
